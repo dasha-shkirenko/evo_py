@@ -39,4 +39,4 @@ def casino(num_1, num_2, num_3, rate):
             rate, win_num_1, win_num_2, win_num_3, num_1, num_2, num_3
         )
 
-print(casino(1, 2, 3, 1))
+print(casino(1, 2, 3, 100))
