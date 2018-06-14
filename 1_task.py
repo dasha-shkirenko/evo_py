@@ -14,3 +14,20 @@ else:
         print('(-200; -50), number is {}'.format(num))
     else:
         print('something went wrong')
+
+
+
+
+
+def count_symb(str, symbol):
+    counter = 0
+    i = 0
+
+    for i in range(0, len(str)):
+        if str[i] == symbol:
+            counter += 1
+
+    return counter
+
+
+print(count_symb('Hello world', 'd'))
